@@ -25,7 +25,7 @@ struct TodoListView: View {
                 }
                 
                 if(todoList.count == 0){
-                    Text("no item in list available")
+                    Text("No item in list available")
                 }
             }.navigationTitle("Todo List")
                 .toolbar{

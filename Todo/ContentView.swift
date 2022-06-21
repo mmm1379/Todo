@@ -28,7 +28,7 @@ class Todo : Identifiable{
 }
 
 struct ContentView: View {
-    @State private var todos:[Todo] = [Todo(text: "abc", title: "first", dueDate: Date()), Todo(text: "bcd", title: "first2", dueDate: Date()),Todo(text: "cdf", title: "first3", dueDate: Date.now)]
+    @State private var todos:[Todo] = []
     var body: some View {
         
             TabView {

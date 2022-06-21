@@ -30,7 +30,7 @@ struct HistoryView: View {
                     
                 }
                 if(todoList.filter({$0.dueDate.pureDay == dueDate}).count == 0){
-                    Text("no item in list available")
+                    Text("No item in list available")
                 }
                 
             }.navigationTitle("History")
